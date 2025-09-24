@@ -16,7 +16,9 @@ spec:
       - name: node-app
         image: containers:
   - name: my-app
-    image: iquantc/my-app:latest
+    image:containers:
+  - name: my-app
+    image: gavyasree/my-app:latest
         ports:
         - containerPort: 3000
 
