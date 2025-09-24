@@ -1,4 +1,4 @@
-name: GitOps Pipeline with ArgoCD file6
+name: GitOps Pipeline with ArgoCD file7
 
 on: 
     push:
